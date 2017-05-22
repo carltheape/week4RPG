@@ -1,0 +1,50 @@
+/*div{border: 1px solid red;}
+*/
+.character{
+	width: 24.5%;
+	height: auto;
+	display: inline-block;
+	border: 1px solid transparent;
+	margin: auto;
+}
+
+body{
+	background-image: url("../pics/battle.jpg");
+	background-size: 90%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: black;
+	
+}
+
+img.portrait{
+	display: block;
+	/*object-fit: none;*/ /* Do not scale the image */
+  	object-position: center; /* Center the image within the element */
+  	height: 200px;
+  	width: auto;
+  	margin: auto;
+}
+
+p{
+	color: yellow;
+	text-shadow: 2px 1px black;
+	font-family: 'Metamorphous', cursive;
+	font-weight: bolder;
+/*	-webkit-text-stroke: .5px black;
+*/	
+}
+
+button.fight{
+	margin: auto;
+	display: block;
+	font-family: 'Metamorphous', cursive;
+	font-weight: bold;
+
+}
+button.sound{
+	margin: auto;
+	font-family: 'Metamorphous', cursive;
+	font-weight: bold;
+
+}
